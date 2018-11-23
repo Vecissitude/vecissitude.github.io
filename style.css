@@ -21,7 +21,7 @@
 	color: hsl(322, 100%, 66%);
 	border-radius: 150px 150px;
 	border-color: hsl(322, 100%, 66%);
-	padding: 4px 28px;
+	padding: 4px 20px 0px 28px;
 	font-family: serif;
 }
 
@@ -180,7 +180,17 @@ p i{
 }
 
 @media screen and (max-width: 560px){
+
+	.header-col,.header-col-2{
+		margin: 5px;
+		padding:;
+
+	}
 	.header-logo {
+		min-width: 120px;
+	}
+
+	.heading-text{
 		max-width: 100%;
 	}
 	.section-3-col-2 {
@@ -195,11 +205,14 @@ p i{
 		width: 50%;
 	}
 	.footer-view-1, .footer-view-2{
-		padding-left: 30px;
+		padding: 0px 30px;
 	}
 
 	.footer-view-1{
 		margin-top: 60px;
+	}
+	.footer-paragraph,.footer-paragraph-2{
+		max-width: 100%
 	}
 }
 	
